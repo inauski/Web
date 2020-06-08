@@ -1,0 +1,48 @@
+/*
+cajas
+https://www.diegocmartin.com/modelo-de-cajas-y-posicionamiento-css/ 
+https://aprende-web.net/css/css7_1.php
+https://www.mclibre.org/consultar/htmlcss/css/css-margenes.html
+*/
+.container{
+	text-align: center;
+}
+
+.box1{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border:0;
+	margin-right: -3px/*separacion derecha entre caja azul y roja*/;
+	/*border:3px solid black;*/
+	/*margin: 0 0px 0 0 ;*/
+	padding: 0;
+	background: blue ;
+	z-index: 10;
+
+	
+}
+
+.box2{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border: 0;
+	/*border:0px solid black;*/
+	/*margin: 0 35px 0 0;*/
+	padding: 0;
+	background: red;
+	z-index: 20;
+
+	
+}
+
+.box3{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border:3px solid black;
+	margin: 0 15px 0 0;
+	background: green;
+	
+}
